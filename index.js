@@ -220,19 +220,19 @@ function getData(data) {
                      <div class='row'>
                      <div class='col' >
                            <div class='card'>
-                           ${data.repo}
+                           <h5>Repositories</h5>${data.repos}
                            </div>
                            <div class='card'>
-                           ${data.following}
+                           <h5>Following</h5>${data.following}
                            </div>
 
                      </div>
                      <div class='col' >
                      <div class='card'>
-                           ${data.followers}
+                           <h5>Followers</h5>${data.followers}
                            </div>
                            <div class='card'>
-                           ${data.stars}
+                           <h5>Starred</h5>${data.stars}
                            </div>
                      </div>
                       </div>
